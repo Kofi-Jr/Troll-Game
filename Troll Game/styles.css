@@ -1,0 +1,57 @@
+/* 
+Filename: Stylesheet for Troll Game document
+Author: Kofi Acheampong
+Date: 01/08/2020
+*/
+
+body {
+ background-image: url("troll.jpg");
+ background-repeat: repeat;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+ 
+}
+
+h1 {
+	font-family: 'Freckle Face', cursive;
+	color: white;
+	text-align: center;
+	font-size: 78px;
+	text-shadow: 2px 2px 3px red;
+}
+
+div#button {
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 30px;
+	background-color: yellow;
+	width: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px;
+	padding: 10px 0px;
+	transition: all 2s;
+}
+
+div#button:hover {
+	background-color: red;
+	color: yellow;
+	font-size: 34px;
+	width: 400px;
+
+}
+h2#result {
+	font-family: 'Aclonica', cursive;
+	color: olivedrab;
+	font-size: 35px ;
+	text-align: center;
+	text-shadow: 2px 2px 3px black;
+
+}
+
+h2#death {
+	font-family: 'Bahiana', cursive;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 3px red;
+}
